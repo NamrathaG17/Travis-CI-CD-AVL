@@ -1,8 +1,6 @@
-package avlTree;
 
 import org.junit.Test;
-import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.Assert.fail;
 
 public class AVLTree_Bug {
     public static boolean debug = false;
@@ -17,7 +15,5 @@ public class AVLTree_Bug {
         } catch (NullPointerException ex) {
             fail("Expected exception was thrown");
         }
-
-
     }
 }
